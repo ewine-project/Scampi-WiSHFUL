@@ -606,7 +606,7 @@ public class WishFulService extends Service implements zmqListener {
         int channel         = 6;
 
         passphrase  = "12345678";
-        sid        = "ssid";
+        ssid        = "ssid";
         
 
         switch(testId) {
