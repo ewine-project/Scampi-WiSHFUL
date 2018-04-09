@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.tu_berlin.tkn.ewine.MainActivity"
+    android:background="@android:color/background_dark">
+
+    <Button
+        android:id="@+id/joinG2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/leaveAPButton"
+        android:layout_alignBottom="@+id/leaveAPButton"
+        android:layout_alignStart="@+id/joinNexus5_1"
+        android:text="Join_G2-2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start All"
+        android:id="@+id/startAllButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eWINESense"
+        android:id="@+id/eWINESenseButton"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/startAllButton"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="stopAP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/startAPButton"
+        android:layout_toEndOf="@+id/eWINESenseButton"
+        android:id="@+id/stopAPButton" />
+
+    <Button
+        android:text="StartAP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startAPButton"
+        android:layout_marginBottom="86dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="JoinAP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/joinAPButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp" />
+
+    <Button
+        android:id="@+id/joinNexus5_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stopAPButton"
+        android:layout_alignBottom="@+id/stopAPButton"
+        android:layout_toEndOf="@+id/startAllButton"
+        android:text="Join_Nexus5_1" />
+
+    <Button
+        android:text="LeaveAP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaveAPButton"
+        android:layout_alignBaseline="@+id/joinAPButton"
+        android:layout_alignBottom="@+id/joinAPButton"
+        android:layout_alignStart="@+id/stopAPButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:id="@+id/testButton"
+        android:layout_below="@+id/eWINESenseButton"
+        android:layout_alignStart="@+id/wishfulButton"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/eWINESenseButton"
+        android:layout_toEndOf="@+id/stopAPButton"
+        android:text="Reset" />
+
+</RelativeLayout>

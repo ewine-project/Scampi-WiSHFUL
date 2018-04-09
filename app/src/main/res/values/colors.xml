@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="ewineRedWine">#8f2d56</color>
+    <color name="ewineRedBright">#d81159</color>
+    <color name="ewineGreen">#218380</color>
+    <color name="ewineYellow">#fbb13c</color>
+    <color name="ewineBlueBright">#73d2de</color>
+
+    <color name="yellowGradientStart">#fbb13c</color>
+    <color name="yellowGradientEnd">#b7812c</color>
+
+    <color name="brightBlueGradientStart">#73d2de</color>
+    <color name="brightBlueGradientEnd">#5499a2</color>
+
+    <color name="ewineDarkGrey">#222222</color>
+    <color name="ewineLightGrey">#a7a5a7</color>
+    <color name="ewineWhite">#e2e2e2</color>
+</resources>

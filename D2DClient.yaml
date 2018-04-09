@@ -1,0 +1,18 @@
+## WiSHFUL Agent config file
+
+agent_config:
+  name: 'TKN_OPO'
+  info: 'config for client running D2D content exchange'
+
+modules:
+  wifi_control:
+    module : ewine_d2d_wifi_control_module
+    class_name : D2DWiFiControlModule
+
+  content_control:
+    module : ewine_d2d_content_control_module
+    class_name : D2DContentControlModule
+
+  iperf:
+    module : wishful_module_iperf
+    class_name : IperfModule

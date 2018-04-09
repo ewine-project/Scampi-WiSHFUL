@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="80dp"
+            android:background="@color/ewineDarkGrey"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:text="Scampi"
+                android:layout_height="wrap_content"
+                android:id="@+id/scampiTab"
+                android:layout_weight="1"
+                android:background="@drawable/bright_red_gradient"
+                android:padding="12dp"
+                android:textColor="@color/ewineWhite"
+                android:textSize="16sp"
+                android:layout_width="100dp"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:text="WiSHFUL"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/wishfulTab"
+                android:layout_weight="1"
+                android:padding="12dp"
+                android:textColor="@color/ewineLightGrey"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:background="@color/ewineDarkGrey" />
+
+            <TextView
+                android:text="Test"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/testTab"
+                android:layout_weight="1"
+                android:padding="12dp"
+                android:textColor="@color/ewineLightGrey"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:background="@color/ewineDarkGrey" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="127dp"
+            app:srcCompat="@drawable/logo_ewine_small_bright"
+            android:id="@+id/imageView2"
+            android:paddingBottom="10dp" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:id="@+id/contentFrame">
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">eWINE</string>
+
+    <!-- Scampi control GUI strings -->
+    <string name="scampi_status_running">Scampi Running</string>
+    <string name="scampi_status_stopped">Scampi Stopped</string>
+    <string name="scampi_status_starting">Scampi Starting…</string>
+    <string name="scampi_status_stopping">Scampi Stopping…</string>
+
+</resources>
