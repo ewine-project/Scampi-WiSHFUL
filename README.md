@@ -1,6 +1,6 @@
-# Scampi WiSHFUL Android Implementation
+# Scampi WiSHFUL Android implementation
 
-This is a implementaion of the Scampi WiSHFUL intergration for Android.
+This is an implementaion of the Scampi WiSHFUL intergration for Android.
 
 ## Usage
 
